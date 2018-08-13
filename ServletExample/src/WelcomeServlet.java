@@ -37,6 +37,7 @@ public class WelcomeServlet extends HttpServlet {
         }
         else if("/welcome2".equals(req.getRequestURI())){
         System.out.println("changes made");
+        System.out.println("hello change made again");
             printWriter.print("<html><body>");
             printWriter.print("<h1>Welcome to servlet programming.</h1>");
             printWriter.print("</body></html>");
