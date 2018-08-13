@@ -12,5 +12,6 @@ public class Welcome2Servlet extends HttpServlet {
         printWriter.print("<html><body>");
         printWriter.print("<h1>Welcome to servlet2 servlet.</h1>");
         printWriter.print("</body></html>");
+        System.out.println("checking change");
     }
 }
